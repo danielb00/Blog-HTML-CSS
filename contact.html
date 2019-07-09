@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Acme'>
+</head>
+
+<body>
+
+    <header id="main-header">
+        <div class="container-title">
+            <h2>Contact Us</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to home page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article id="container_contact">
+        <h2>Let's get in touch</h2>
+
+    <form action = "contact.html" method="POST">
+        <div class="contact">
+            <label>First name</label>
+            <input type="text" name="firstName" placeholder="Your name.." autocomplete="on">
+        </div>
+
+        <div class="contact">
+            <label>Last name</label>
+            <input type="text" name="lastName" placeholder="Your last name.." autocomplete="on">
+        </div>
+
+        <div class="contact">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Write something..." cols="30" rows="10"></textarea>
+        </div>
+        
+        <div class="contact">
+            <label>Email</label>
+            <input type="text" name="email" placeholder="Your address email.." autocomplete="on">
+        </div>
+
+        <div class="contact">
+            <label for="country">Country</label>
+            <select id="country" name="country"> 
+            <option value="romania">Romania</option>
+            <option value="germania">Germania</option>
+            <option value="olanda">Olanda</option>
+            <option value="franta">Franta</option>      
+        </div>
+
+    </form>
+
+        <input class="button" type="submit" name="submit" value="Submit">
+
+        <hr class="hr">
+
+        <div class="contact">
+        <p>Or, if you like, you can follow me on:</p>
+        </div>
+
+        <div class="contact_follow">
+            <ul>
+                <li><a href="https://www.facebook.com/boariu.daniel" target="_blank"><img src="images/facebook.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/daniel-boariu-7468a414a/" target="_blank"><img src="images/linkedin.jpg" alt=""></a></li>
+                <li><a href="https://danielb00.github.io/" target="_blank"><img src="images/github.png" alt=""></a></li>
+            </ul>
+        </div>
+
+    </article>
+
+    <footer id="container_copyright">
+        <div class="copyright">
+            Copyright &#169; Daniel Boariu - 2019
+        </div>
+    </footer>
+
+</body>
+</html> 
